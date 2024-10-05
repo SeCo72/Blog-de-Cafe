@@ -1,0 +1,123 @@
+.contacto {
+    position: relative; /* Mantiene la posición relativa */
+}
+
+.imagen-contacto {
+    width: 100%; /* Asegúrate de que la imagen cubra todo el ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.formulario-contenedor {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 80%; /* Asegura que el contenedor esté cerca de la parte inferior de la imagen */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, 0); /* Centrado horizontal, sin afectar el vertical */
+    background-color: rgb(255, 255, 255); /* Fondo blanco con transparencia */
+    padding: 7rem; /* Espacio interno */
+    z-index: 10; /* Asegura que esté encima de la imagen */
+    width: 90%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columnas */
+}
+
+.form-group {
+    display: flex; /* Usa flexbox para cada grupo de label y input */
+    align-items: center; /* Alinea verticalmente al centro */
+    margin-bottom: 1rem; /* Espacio entre grupos */
+}
+
+.form-group label {
+    flex: 0 0 60px; /* Ancho fijo para el label */
+    margin-right: 2rem; /* Espacio entre label y input */
+}
+
+input, textarea {
+    flex: 1; /* Toma el resto del espacio disponible */
+    padding: 0.5rem; /* Espacio interno */
+    border: 1px solid #ccc; /* Bordes de los campos */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa; /* Color gris para el placeholder */
+}
+
+/* Ajustes para el botón */
+.formulario-boton {
+    display: flex; /* Usa flexbox para el botón */
+    justify-content: flex-end; /* Alinea el botón a la derecha */
+    margin-top: 1rem; /* Espacio arriba del botón */
+}
+
+.btn {
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    width: auto; /* Asegúrate de que el ancho sea automático */
+    align-self: flex-end; /* Alinea el botón a la derecha */
+}
+.contacto {
+    position: relative; /* Mantiene la posición relativa */
+}
+
+.imagen-contacto {
+    width: 100%; /* Asegúrate de que la imagen cubra todo el ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.formulario-contenedor {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 80%; /* Asegura que el contenedor esté cerca de la parte inferior de la imagen */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, 0); /* Centrado horizontal, sin afectar el vertical */
+    background-color: rgb(255, 255, 255); /* Fondo blanco con transparencia */
+    padding: 7rem; /* Espacio interno */
+    z-index: 10; /* Asegura que esté encima de la imagen */
+    width: 90%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columnas */
+}
+
+.form-group {
+    display: flex; /* Usa flexbox para cada grupo de label y input */
+    align-items: center; /* Alinea verticalmente al centro */
+    margin-bottom: 1rem; /* Espacio entre grupos */
+}
+
+.form-group label {
+    flex: 0 0 60px; /* Ancho fijo para el label */
+    margin-right: 2rem; /* Espacio entre label y input */
+}
+
+input, textarea {
+    flex: 1; /* Toma el resto del espacio disponible */
+    padding: 0.5rem; /* Espacio interno */
+    border: 1px solid #ccc; /* Bordes de los campos */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa; /* Color gris para el placeholder */
+}
+
+/* Ajustes para el botón */
+.formulario-boton {
+    display: flex; /* Usa flexbox para el botón */
+    justify-content: flex-end; /* Alinea el botón a la derecha */
+    margin-top: 1rem; /* Espacio arriba del botón */
+}
+
+.btn {
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */    width: auto; /* Asegúrate de que el ancho sea automático */
+    width: auto; /* Asegúrate de que el ancho sea automático */
+    align-self: flex-end; /* Alinea el botón a la derecha */
+}
+
+.site-footer {
+    margin-top: 50rem; /* Añadir espacio entre el pie de página y el contenido anterior */
+}
+

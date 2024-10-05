@@ -1,0 +1,45 @@
+.cursos-container {
+    display: flex; /* Usa flexbox para los cursos */
+    flex-direction: column; /* Alinea los cursos en columnas */
+    gap: 2rem; /* Espacio entre los cursos */
+    align-items: center; /* Centra los cursos horizontalmente */
+    margin-top: 20px; /* Espacio adicional entre el título y el contenido */
+}
+
+.curso {
+    display: flex; /* Usa flexbox para cada curso */
+    align-items: center; /* Alinea la imagen y el texto en el centro */
+    overflow: hidden; /* Evita que el contenido se desborde */
+    width: 80%; /* Ajusta el ancho del contenedor del curso */
+    margin-top: 10px; /* Espacio adicional entre cada curso */
+}
+
+.curso img {
+    width: 350px; /* Aumenta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+.curso-info {
+    padding: 1rem; /* Espacio interno para la información del curso */
+    display: flex; /* Usa flexbox para el contenido */
+    flex-direction: column; /* Coloca los elementos en columnas */
+    justify-content: flex-start; /* Alinea el contenido al inicio */
+}
+
+.curso-info h3,
+.curso-info p {
+    font-weight: normal; /* Eliminar la negrita de todas las descripciones */
+}
+
+/* Estilo para los párrafos, dejando en negrita solo "Fecha:", "Precio:", y "Cupo:" */
+.curso-info p strong {
+    font-weight: bold; /* Asegura que estos estén en negrita */
+}
+
+hr {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 1px solid #ccc; /* Crea una línea de separación */
+    margin: 1rem 0; /* Espacio arriba y abajo del separador */
+}
+
