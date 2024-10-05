@@ -147,10 +147,9 @@ img {
     margin-bottom: 2rem;
 }
 
-/* Ajustar el tamaño de las imágenes en index.html */
 .entrada-blog img {
-    width: 95%; /* Ajusta al tamaño deseado */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 95%; 
+    height: auto; 
 }
 
 

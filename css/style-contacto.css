@@ -1,123 +1,122 @@
 .contacto {
-    position: relative; /* Mantiene la posición relativa */
+    position: relative;
 }
 
 .imagen-contacto {
-    width: 100%; /* Asegúrate de que la imagen cubra todo el ancho */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    height: auto;
 }
 
 .formulario-contenedor {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 80%; /* Asegura que el contenedor esté cerca de la parte inferior de la imagen */
-    left: 50%; /* Centrado horizontal */
-    transform: translate(-50%, 0); /* Centrado horizontal, sin afectar el vertical */
-    background-color: rgb(255, 255, 255); /* Fondo blanco con transparencia */
-    padding: 7rem; /* Espacio interno */
-    z-index: 10; /* Asegura que esté encima de la imagen */
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    background-color: rgb(255, 255, 255); 
+    padding: 7rem;
+    z-index: 10; 
     width: 90%;
 }
 
 .formulario {
     display: flex;
-    flex-direction: column; /* Coloca los elementos en columnas */
+    flex-direction: column; 
 }
 
 .form-group {
-    display: flex; /* Usa flexbox para cada grupo de label y input */
-    align-items: center; /* Alinea verticalmente al centro */
-    margin-bottom: 1rem; /* Espacio entre grupos */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 1rem; 
 }
 
 .form-group label {
-    flex: 0 0 60px; /* Ancho fijo para el label */
-    margin-right: 2rem; /* Espacio entre label y input */
+    flex: 0 0 60px;
+    margin-right: 2rem; 
 }
 
 input, textarea {
-    flex: 1; /* Toma el resto del espacio disponible */
-    padding: 0.5rem; /* Espacio interno */
-    border: 1px solid #ccc; /* Bordes de los campos */
+    flex: 1; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: #aaa; /* Color gris para el placeholder */
+    color: #aaa; 
 }
 
-/* Ajustes para el botón */
 .formulario-boton {
-    display: flex; /* Usa flexbox para el botón */
-    justify-content: flex-end; /* Alinea el botón a la derecha */
-    margin-top: 1rem; /* Espacio arriba del botón */
+    display: flex; 
+    justify-content: flex-end; 
+    margin-top: 1rem; 
 }
 
 .btn {
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    width: auto; /* Asegúrate de que el ancho sea automático */
-    align-self: flex-end; /* Alinea el botón a la derecha */
+    cursor: pointer; 
+    width: auto; 
+    align-self: flex-end; 
 }
 .contacto {
-    position: relative; /* Mantiene la posición relativa */
+    position: relative; 
 }
 
 .imagen-contacto {
-    width: 100%; /* Asegúrate de que la imagen cubra todo el ancho */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    height: auto; 
 }
 
 .formulario-contenedor {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 80%; /* Asegura que el contenedor esté cerca de la parte inferior de la imagen */
-    left: 50%; /* Centrado horizontal */
-    transform: translate(-50%, 0); /* Centrado horizontal, sin afectar el vertical */
-    background-color: rgb(255, 255, 255); /* Fondo blanco con transparencia */
-    padding: 7rem; /* Espacio interno */
-    z-index: 10; /* Asegura que esté encima de la imagen */
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, 0); 
+    background-color: rgb(255, 255, 255); 
+    padding: 7rem;
+    z-index: 10; 
     width: 90%;
 }
 
 .formulario {
     display: flex;
-    flex-direction: column; /* Coloca los elementos en columnas */
+    flex-direction: column; 
 }
 
 .form-group {
-    display: flex; /* Usa flexbox para cada grupo de label y input */
-    align-items: center; /* Alinea verticalmente al centro */
-    margin-bottom: 1rem; /* Espacio entre grupos */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 1rem; 
 }
 
 .form-group label {
-    flex: 0 0 60px; /* Ancho fijo para el label */
-    margin-right: 2rem; /* Espacio entre label y input */
+    flex: 0 0 60px; 
+    margin-right: 2rem; 
 }
 
 input, textarea {
-    flex: 1; /* Toma el resto del espacio disponible */
-    padding: 0.5rem; /* Espacio interno */
-    border: 1px solid #ccc; /* Bordes de los campos */
+    flex: 1; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: #aaa; /* Color gris para el placeholder */
+    color: #aaa; 
 }
 
-/* Ajustes para el botón */
 .formulario-boton {
-    display: flex; /* Usa flexbox para el botón */
-    justify-content: flex-end; /* Alinea el botón a la derecha */
-    margin-top: 1rem; /* Espacio arriba del botón */
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 1rem; 
 }
 
 .btn {
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */    width: auto; /* Asegúrate de que el ancho sea automático */
-    width: auto; /* Asegúrate de que el ancho sea automático */
-    align-self: flex-end; /* Alinea el botón a la derecha */
+    cursor: pointer; 
+    width: auto; 
+    width: auto; 
+    align-self: flex-end; 
 }
 
 .site-footer {
-    margin-top: 50rem; /* Añadir espacio entre el pie de página y el contenido anterior */
+    margin-top: 50rem; 
 }
 
